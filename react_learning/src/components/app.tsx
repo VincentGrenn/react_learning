@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./header.js";
+import "../fonts/Poppins-Regular.ttf";
+import "./app.css";
 
 const PORT = 5000;
 

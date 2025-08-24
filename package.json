@@ -2,12 +2,12 @@
   "name": "react_learning",
   "version": "1.0.0",
   "description": "learning react",
-  "main": "./dist/client/src/main.js",
+  "main": "./dist/server/server.js",
   "type": "module",
   "scripts": {
     "dev": "npm run build && npm start",
     "build": "tsc",
-    "start": "node ./dist/client/src/main.js"
+    "start": "node ./dist/server/server.js"
   },
   "keywords": [],
   "author": "",

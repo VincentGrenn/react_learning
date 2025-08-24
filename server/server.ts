@@ -4,7 +4,10 @@ const PORT = 5000;
 
 const Server = http.createServer((req, res) => {
     if (req.url === "/" || req.url === "/home" && req.method === "GET") {
-        
+        res.writeHead(200, JSON.stringify({
+            message: "OK",
+        }));
+        res.end();
     }
 });
 

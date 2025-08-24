@@ -1,0 +1,25 @@
+{
+  "name": "react_learning",
+  "version": "1.0.0",
+  "description": "learning react",
+  "main": "./dist/index.jsc",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && npm start",
+    "build": "tsc",
+    "start": "npm ./dist/jsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.11",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

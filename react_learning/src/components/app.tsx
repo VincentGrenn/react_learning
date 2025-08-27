@@ -8,6 +8,8 @@ const PORT = 5000;
 function App() {
     const [backendData, setBackendData] = React.useState([{}]);
 
+    console.log(backendData ? true : false);
+    
     React.useEffect(() => {
         fetch(`http://localhost:${PORT}/`).then(response => response.json()).then(data => {
             setBackendData(data);

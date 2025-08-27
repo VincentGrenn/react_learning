@@ -1,9 +1,12 @@
-import React from "react";
+import ReactLogo from "../assets/react.svg";
 
 function Header() {
     return (
-        <header>
-            <h1>Hello world!</h1>
+        <header id="MainHeader">
+            <img id="ReactLogo" src={ ReactLogo } alt="React Logo"></img>
+            <h1>React Learning</h1>
+            <p>A sandbox for me.</p>
+            <hr></hr>
         </header>
     );
 }

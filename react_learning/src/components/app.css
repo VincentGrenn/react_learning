@@ -3,6 +3,32 @@
     src: local("Poppins"), url("../fonts/Poppins-Regular.ttf"), format("truetype");
 }
 
+@keyframes LogoSpin {
+    0% {
+        rotate: 0rad;
+    } 100% {
+        rotate: 2rad;
+    }
+}
+
 body {
     font-family: "Poppins";
+}
+
+#ReactLogo {
+    width: 12rem;
+    height: 12rem;
+    animation: LogoSpin 3s infinite linear forwards;
+}
+
+#MainHeader {
+    text-align: center;
+}
+
+#MainHeader h1 {
+    font-size: 3.5rem;
+}
+
+#MainHeader p {
+    font-size: 1.25rem;
 }
